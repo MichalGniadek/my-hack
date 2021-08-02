@@ -1,0 +1,34 @@
+# Cennik
+
+- Broń lekka, tarcza: 20g
+- Broń ciężka: 40g
+- Broń zasięgowa: 20-40g
+- Lekka zbroja: 100g
+- Ciężka zbroja: 400g
+---
+- Powszechne przedmioty: 1-5g
+    - lina, świece
+- Specjalistyczne przedmioty: 5-20g
+    - pułapka na niedźwiedzie, klucz
+- Luksusowe przedmioty: 20-100g
+    - książka, lustro
+---
+- Zwierzęta
+    - Koń: 100g
+    - Pies: 30g
+    - Kurczak: 5g
+    - Wytrenowany sokół: 1000g
+- Transport
+    - Wóz: 100g
+    - Łódka: 100g
+    - Statek wojenny: 10 000g
+- Nieruchomość
+    - Mały dom: 1000g
+    - Tawerna: 2000g
+    - Posiadłość: 10 000g
+    - Zamek: 200 000g
+- Najemnicy (ceny za dzień)
+    - Przewodnik: 10-20g
+    - Żołnierz: 20-50g
+    - Specjalista: 50-100g
+    - Mag: 100-200g

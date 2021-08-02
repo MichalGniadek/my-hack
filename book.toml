@@ -1,0 +1,10 @@
+[book]
+authors = ["Michal Gniadek"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Mój Hack!"
+
+[preprocessor.rolltables]
+label-separator = ""
+separator = "-"
