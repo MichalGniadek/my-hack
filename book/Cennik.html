@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Wstęp - Mój Hack!</title>
+        <title>Cennik - Mój Hack!</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Wstęp.html">Wstęp</a></li><li class="chapter-item expanded "><a href="Mechanika.html"><strong aria-hidden="true">1.</strong> Mechanika</a></li><li class="chapter-item expanded "><a href="Postać.html"><strong aria-hidden="true">2.</strong> Postać</a></li><li class="chapter-item expanded "><a href="Cennik.html"><strong aria-hidden="true">3.</strong> Cennik</a></li><li class="chapter-item expanded "><a href="Zaklęcia.html"><strong aria-hidden="true">4.</strong> Zaklęcia</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Wstęp.html">Wstęp</a></li><li class="chapter-item expanded "><a href="Mechanika.html"><strong aria-hidden="true">1.</strong> Mechanika</a></li><li class="chapter-item expanded "><a href="Postać.html"><strong aria-hidden="true">2.</strong> Postać</a></li><li class="chapter-item expanded "><a href="Cennik.html" class="active"><strong aria-hidden="true">3.</strong> Cennik</a></li><li class="chapter-item expanded "><a href="Zaklęcia.html"><strong aria-hidden="true">4.</strong> Zaklęcia</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -134,14 +134,75 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="wstęp"><a class="header" href="#wstęp">Wstęp</a></h1>
-<p>Oparte na Maze Rats.</p>
+                        <h1 id="cennik"><a class="header" href="#cennik">Cennik</a></h1>
+<ul>
+<li>Broń lekka, tarcza: 20g</li>
+<li>Broń ciężka: 40g</li>
+<li>Broń zasięgowa: 20-40g</li>
+<li>Lekka zbroja: 100g</li>
+<li>Ciężka zbroja: 400g</li>
+</ul>
+<hr />
+<ul>
+<li>Powszechne przedmioty: 1-5g
+<ul>
+<li>lina, świece</li>
+</ul>
+</li>
+<li>Specjalistyczne przedmioty: 5-20g
+<ul>
+<li>pułapka na niedźwiedzie, klucz</li>
+</ul>
+</li>
+<li>Luksusowe przedmioty: 20-100g
+<ul>
+<li>książka, lustro</li>
+</ul>
+</li>
+</ul>
+<hr />
+<ul>
+<li>Zwierzęta
+<ul>
+<li>Koń: 100g</li>
+<li>Pies: 30g</li>
+<li>Kurczak: 5g</li>
+<li>Wytrenowany sokół: 1000g</li>
+</ul>
+</li>
+<li>Transport
+<ul>
+<li>Wóz: 100g</li>
+<li>Łódka: 100g</li>
+<li>Statek wojenny: 10 000g</li>
+</ul>
+</li>
+<li>Nieruchomość
+<ul>
+<li>Mały dom: 1000g</li>
+<li>Tawerna: 2000g</li>
+<li>Posiadłość: 10 000g</li>
+<li>Zamek: 200 000g</li>
+</ul>
+</li>
+<li>Najemnicy (ceny za dzień)
+<ul>
+<li>Przewodnik: 10-20g</li>
+<li>Żołnierz: 20-50g</li>
+<li>Specjalista: 50-100g</li>
+<li>Mag: 100-200g</li>
+</ul>
+</li>
+</ul>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="next" href="Mechanika.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="prev" href="Postać.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="Zaklęcia.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -150,13 +211,30 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="next" href="Mechanika.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="prev" href="Postać.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="Zaklęcia.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>

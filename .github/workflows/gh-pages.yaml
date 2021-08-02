@@ -1,0 +1,11 @@
+name: Deploy Github Page
+on: [push]
+jobs:
+  job0:
+    runs-on: ubuntu-latest
+    steps:   
+      - name: Update Github Pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./book
