@@ -2,8 +2,11 @@
 authors = ["Michal Gniadek"]
 language = "en"
 multilingual = false
-src = "src"
 title = "Mój Hack!"
+
+# For github pages
+[build]
+build-dir = "docs/"
 
 [preprocessor.rolltables]
 label-separator = ""
