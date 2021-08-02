@@ -3,9 +3,12 @@ on: [push]
 jobs:
   job0:
     runs-on: ubuntu-latest
-    steps:   
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+        
       - name: Update Github Pages branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./book
+          publish_dir: ./pages
