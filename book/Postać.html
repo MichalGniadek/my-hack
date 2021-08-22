@@ -143,22 +143,26 @@
 <li><strong>Umysł</strong> (charyzma, inteligencja, siła woli)</li>
 </ul>
 <table><thead><tr><th align="center">d6</th><th align="center"><strong>Siła</strong></th><th align="center"><strong>Zręczność</strong></th><th align="center"><strong>Umysł</strong></th></tr></thead><tbody>
-<tr><td align="center">1</td><td align="center">+2</td><td align="center">+1</td><td align="center">+0</td></tr>
-<tr><td align="center">2</td><td align="center">+2</td><td align="center">+0</td><td align="center">+1</td></tr>
-<tr><td align="center">3</td><td align="center">+1</td><td align="center">+2</td><td align="center">+0</td></tr>
-<tr><td align="center">4</td><td align="center">+0</td><td align="center">+2</td><td align="center">+1</td></tr>
-<tr><td align="center">5</td><td align="center">+1</td><td align="center">+0</td><td align="center">+2</td></tr>
-<tr><td align="center">6</td><td align="center">+0</td><td align="center">+1</td><td align="center">+2</td></tr>
+<tr><td align="center">1</td><td align="center">+7</td><td align="center">+5</td><td align="center">+3</td></tr>
+<tr><td align="center">2</td><td align="center">+7</td><td align="center">+3</td><td align="center">+5</td></tr>
+<tr><td align="center">3</td><td align="center">+5</td><td align="center">+7</td><td align="center">+3</td></tr>
+<tr><td align="center">4</td><td align="center">+3</td><td align="center">+7</td><td align="center">+5</td></tr>
+<tr><td align="center">5</td><td align="center">+5</td><td align="center">+3</td><td align="center">+7</td></tr>
+<tr><td align="center">6</td><td align="center">+3</td><td align="center">+5</td><td align="center">+7</td></tr>
 </tbody></table>
 <ul>
-<li><strong>Atak</strong> +0</li>
-<li><strong>Obrona</strong> 6</li>
+<li><strong>Atak</strong> +3</li>
+<li><strong>Obrona</strong> 10</li>
 <li><strong>Życie</strong> 4/4</li>
 </ul>
+<blockquote>
+<p>Nowa wersja: Nowy wynik dla statystyk i ataku to: (statystyka * 2 + 3), np. 0 -&gt; 3, 1 -&gt; 5, 2 -&gt; 7
+Nowa wersja: 10 obrony</p>
+</blockquote>
 <h2 id="dodatkowe"><a class="header" href="#dodatkowe">Dodatkowe</a></h2>
 <p>Jedno do wyboru:</p>
 <ul>
-<li>+1 do <strong>ataku</strong></li>
+<li>+2 do <strong>ataku</strong></li>
 <li>Jedno zaklęcie</li>
 <li>Jedna z cech (dają <strong>ułatwienie</strong>):
 <ul>
@@ -172,18 +176,21 @@
 <h2 id="ekwipunek"><a class="header" href="#ekwipunek">Ekwipunek</a></h2>
 <p>Każda postać ma 10 miejsc na przedmioty i posiada:</p>
 <ul>
-<li>Lekką zbroję (+1 do <strong>Obrony</strong>)</li>
+<li>Lekką zbroję (+3 do <strong>Obrony</strong>)</li>
 <li>Dwa z:
 <ul>
-<li>Tarcza (1 ręka, +1 do <strong>Obrony</strong>)</li>
+<li>Tarcza (1 ręka, +2 do <strong>Obrony</strong>)</li>
 <li>Broń jednoręczna (1 ręka)</li>
-<li>Broń dwuręczna (2 ręce,1 do <strong>obrażeń</strong>, nie wpływa na rzut do ataku)</li>
+<li>Broń dwuręczna (2 ręce, +1 do <strong>obrażeń</strong>, nie wpływa na rzut do ataku)</li>
 <li>Broń zasięgbowa (2 ręce, nie można używać w bliskim zasięgu)</li>
 </ul>
 </li>
 <li>Jedzenie (3 porcje)</li>
 <li>3 losowe przedmioty z tabelki:</li>
 </ul>
+<blockquote>
+<p>Nowa wersja: zbroja jest +3, tarcza jest +2</p>
+</blockquote>
 <table><thead><tr><th align="center">d66</th><th align="left">Przedmiot</th></tr></thead><tbody>
 <tr><td align="center">1-1</td><td align="left">Fiolka kwasu</td></tr>
 <tr><td align="center">1-2</td><td align="left">Fiolka trucizny</td></tr>
@@ -249,20 +256,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3000/__livereload");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
