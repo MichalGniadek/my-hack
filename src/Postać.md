@@ -8,20 +8,23 @@ Cała postać jest losowana.
 
 |d|**Siła**|**Zręczność**|**Umysł**
 |::|::|::|::|
-||+2|+1|+0
-||+2|+0|+1
-||+1|+2|+0
-||+0|+2|+1
-||+1|+0|+2
-||+0|+1|+2
+||+7|+5|+3
+||+7|+3|+5
+||+5|+7|+3
+||+3|+7|+5
+||+5|+3|+7
+||+3|+5|+7
 
-- **Atak** +0
-- **Obrona** 6
+- **Atak** +3
+- **Obrona** 10
 - **Życie** 4/4
+
+> Nowa wersja: Nowy wynik dla statystyk i ataku to: (statystyka * 2 + 3), np. 0 -> 3, 1 -> 5, 2 -> 7
+> Nowa wersja: 10 obrony
 
 ## Dodatkowe
 Jedno do wyboru:
-- +1 do **ataku**
+- +2 do **ataku**
 - Jedno zaklęcie
 - Jedna z cech (dają **ułatwienie**):
     - Przetrwanie (śledzenie, łowienie)
@@ -31,14 +34,16 @@ Jedno do wyboru:
 
 ## Ekwipunek
 Każda postać ma 10 miejsc na przedmioty i posiada:
-- Lekką zbroję (+1 do **Obrony**)
+- Lekką zbroję (+3 do **Obrony**)
 - Dwa z:
-    - Tarcza (1 ręka, +1 do **Obrony**)
+    - Tarcza (1 ręka, +2 do **Obrony**)
     - Broń jednoręczna (1 ręka)
-    - Broń dwuręczna (2 ręce,1 do **obrażeń**, nie wpływa na rzut do ataku)
+    - Broń dwuręczna (2 ręce, +1 do **obrażeń**, nie wpływa na rzut do ataku)
     - Broń zasięgbowa (2 ręce, nie można używać w bliskim zasięgu)
 - Jedzenie (3 porcje)
 - 3 losowe przedmioty z tabelki:
+
+> Nowa wersja: zbroja jest +3, tarcza jest +2
 
 |d|Przedmiot
 |::|:|
