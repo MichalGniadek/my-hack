@@ -1,2 +1,2 @@
 # My Hack!
-An RPG system based on Maze Rats.
+An OSR RPG system.
