@@ -7,6 +7,26 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
         
+      - name: Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+
+      - name: mdBook
+        uses: actions-rs/cargo@v1
+        with:
+          command: install
+          args: mdbook
+
+      - name: mdBook-rolltables
+        uses: actions-rs/cargo@v1
+        with:
+          command: install
+          args: --git https://github.com/MichalGniadek/mdbook-rolltables.git
+
+      - name: Build
+        run: mdbook build
+
       - name: Update Github Pages branch
         uses: peaceiris/actions-gh-pages@v3
         with:
