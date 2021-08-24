@@ -13,10 +13,9 @@ jobs:
           toolchain: stable
 
       - name: mdBook
-        uses: actions-rs/cargo@v1
+        uses: peaceiris/actions-mdbook@v1
         with:
-          command: install
-          args: mdbook
+          mdbook-version: 'latest'
 
       - name: mdBook-rolltables
         uses: actions-rs/cargo@v1
