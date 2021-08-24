@@ -33,6 +33,7 @@ Jedno do wyboru:
     - Skradanie się
 
 ## Ekwipunek
+> Nowa wersja: zbroja jest +3, tarcza jest +2
 Każda postać ma 10 miejsc na przedmioty i posiada:
 - Lekką zbroję (+3 do **Obrony**)
 - Dwa z:
@@ -42,8 +43,6 @@ Każda postać ma 10 miejsc na przedmioty i posiada:
     - Broń zasięgbowa (2 ręce, nie można używać w bliskim zasięgu)
 - Jedzenie (3 porcje)
 - 3 losowe przedmioty z tabelki:
-
-> Nowa wersja: zbroja jest +3, tarcza jest +2
 
 |d|Przedmiot
 |::|:|
@@ -83,3 +82,6 @@ Każda postać ma 10 miejsc na przedmioty i posiada:
 || Zwój z zaklęciem 
 || Kolczatki 
 || Fiolka trucizny 
+
+## Karta postaci
+[![Karta postaci](Moj-Hack-Karta-Postaci.png)](Moj-Hack-Karta-Postaci.pdf)
