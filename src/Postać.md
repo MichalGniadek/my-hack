@@ -83,5 +83,15 @@ Każda postać ma 10 miejsc na przedmioty i posiada:
 || Kolczatki 
 || Fiolka trucizny 
 
+## Nowe poziomy
+|Poziom|Dodatki|
+|::|:|
+|2| +2 życia, +1 do statystyki
+|3| +2 życia, *jedno z dodatkowych*
+|4| +2 życia, +1 do statystyki
+|5| +2 życia, *jedno z dodatkowych*
+|6| +2 życia, +1 do statystyki
+|7| +2 życia, *jedno z dodatkowych*
+
 ## Karta postaci
 [![Karta postaci](Moj-Hack-Karta-Postaci.png)](Moj-Hack-Karta-Postaci.pdf)
